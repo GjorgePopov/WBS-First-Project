@@ -1,0 +1,185 @@
+
+header {
+    width: auto;
+    height: 630px;
+    background-image: url(pictures/bgk-header.png);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    padding-top: 15px;
+    
+}
+
+.firstlogo {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+.firstlogo p {
+    padding-left: 10px;
+    font-size: 30px;
+    color: aqua;
+
+}
+
+.list {
+    padding-left: 300px;
+}
+
+ .list :nth-child(n+1) {
+    color: white;
+ }
+
+ .list :nth-child(1) {
+    color: aqua;
+ }
+
+.navbar ul {
+    display: flex;
+    padding-top: 20px;
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    padding-left: 10px;
+}
+
+.header-descr {
+   margin: 150px;
+   color: white;
+   padding-left: 250px;
+}
+
+.header-descr h1 {
+    padding-left: 160px;
+    padding-bottom: 30px;
+}
+
+.header-descr p {
+    padding: 30px;
+    
+    
+    
+}
+
+.header-descr h1::after {
+    display: block;
+    margin: 20px 210px 0px;
+    content: "";
+    height: 2px;
+    background-color: aqua;
+    width: 50px;
+    
+    }
+
+
+
+
+
+.header-descr button{
+    margin-left: 340px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    
+}
+
+
+    
+
+@media only screen and (max-width: 1024px) {
+
+.navbar {
+    flex-direction: column;
+    justify-content: center;
+      margin-left: 0;
+      padding-top: 25px;
+    }
+
+    .firstlogo {
+        justify-content: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .list {
+    padding-left: 50px;
+      }
+
+    .list ul{
+        width: 150px;
+        
+        flex-direction: column;
+        display: none;
+        
+    }
+
+    .header-descr {
+        padding-left: 0px;
+        margin: 60px;
+        margin-left: 140px;
+    }
+
+    .header-descr h1{
+
+        padding-left: 0px;
+        padding-bottom: 0;
+    }
+
+    .header-descr button {
+        
+        margin: 40px 0px 40px 70px;
+    }
+
+    .header-descr h1::after {
+        margin:20px 90px 0px;
+    }
+
+    .header-descr p {
+        padding: 10px 0px;
+  }
+
+}
+    
+
+  
+
+
+  
+
+   
+
+ 
+
+  
+  /*@media only screen and (max-width: 765px) {
+    .navbar {
+      justify-content: center;
+    }
+    .item {
+      width: 200px;
+      background-color: lightgreen;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .items {
+      flex-direction: column;
+    }
+    .item {
+      width: 100%;
+      background-color: lightcoral;
+      margin-bottom: 20px;
+    }
+  }*/
+
+  
